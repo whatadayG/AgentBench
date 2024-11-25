@@ -3,8 +3,9 @@ parameters:
   url: https://api.openai.com/v1/chat/completions
   headers:
     Content-Type: application/json
-    Authorization: Bearer <% PUT-YOUR-OPENAI-KEY-HERE %>
+    Authorization: Bearer **********
   body:
+    model: gpt-4o-mini
     temperature: 0
   prompter:
     name: role_content_dict
